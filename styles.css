@@ -1,11 +1,24 @@
+@font-face {
+    font-family: porter;
+    src: url(https://www.dafont.com/porter.font);
+}
+
+@font-face {
+    font-family: nourd;
+    src: url(https://www.behance.net/gallery/84555653/Nourd-Typeface);
+}
+
 html {
     background-color: #FAF8F2;
 }
 
 h1, h4 {
+    font-family: porter;
     color: #D52828;
 }
 
 p, li {
+    font-family: nourd;
+    font-weight: bold;
     color: black;
 }
