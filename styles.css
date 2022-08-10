@@ -18,9 +18,17 @@ h1 {
     font-size: 100px
 }
 
-h4 {
+.homelink, h4 {
     font-family: porter;
     color: #D52828;
+    text-decoration: none;
+}
+
+.homeimg {
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
 }
 
 p, li {
@@ -29,7 +37,7 @@ p, li {
     color: black;
 }
 
-a:link, a:visited {
+.headerlink {
     font-family: porter;
     color: #97C8E6;
     text-decoration: none;
