@@ -12,7 +12,13 @@ html {
     background-color: #FAF8F2;
 }
 
-h1, h4 {
+h1 {
+    font-family: porter;
+    color: #D52828;
+    font-size: 100px
+}
+
+h4 {
     font-family: porter;
     color: #D52828;
 }
@@ -21,4 +27,11 @@ p, li {
     font-family: nourd;
     font-weight: bold;
     color: black;
+}
+
+a:link, a:visited {
+    font-family: porter;
+    color: #97C8E6;
+    text-decoration: none;
+    font-size: 25px;
 }
