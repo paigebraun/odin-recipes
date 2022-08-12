@@ -12,10 +12,19 @@ html {
     background-color: #FAF8F2;
 }
 
+.mainpic {
+    position: absolute;
+    right: -300px;
+    margin-top: 100px;
+    top:0px;
+    width: 1300px;
+    height: auto;
+}
+
 h1 {
     font-family: porter;
     color: #D52828;
-    font-size: 100px
+    font-size: 75px
 }
 
 .homelink, h4 {
@@ -38,6 +47,10 @@ h1 {
     margin-bottom: 20px;
 }
 
+.bacon2 {
+    rotate: 30deg;
+}
+
 .homeimg:hover {
     filter:grayscale(100%)
 }
@@ -46,6 +59,8 @@ p, li {
     font-family: nourd;
     font-weight: bold;
     color: black;
+    inline-size: 800px;
+    overflow-wrap: break-word;
 }
 
 .headerlink {
@@ -53,6 +68,12 @@ p, li {
     color: #97C8E6;
     text-decoration: none;
     font-size: 25px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .homelink {
@@ -91,9 +112,3 @@ p, li {
 span {
     display: block;
 }
-
-
-/*test
-* {
-    border: 2px solid red;
-  }
