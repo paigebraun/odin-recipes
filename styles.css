@@ -27,8 +27,15 @@ h1 {
 .homeimg {
     height: auto; 
     width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
+    max-width: 150px; 
+    max-height: 150px;
+}
+
+.bacon {
+    rotate: 30deg;
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .homeimg:hover {
@@ -48,7 +55,45 @@ p, li {
     font-size: 25px;
 }
 
-/*test*/
+.homelink {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: flex-end;
+    margin-top: 70px;
+    margin-right: 100px;
+}
+
+.breakfast-recipes{
+    position: absolute;
+    font-size: 130px;
+    top:435px;
+    left:300px;
+}
+
+.bc {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 700px;
+    height: auto;
+}
+
+.top-logo {
+    position: absolute;
+    left: 850px;
+    top:0px;
+    width:180px;
+    height: auto;
+}
+
+span {
+    display: block;
+}
+
+
+/*test
 * {
     border: 2px solid red;
   }
