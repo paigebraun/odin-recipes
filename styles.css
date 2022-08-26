@@ -76,36 +76,49 @@ p, li {
     justify-content: space-between;
 }
 
-.homelink {
+/* flex container for .homelink images */
+.container {
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: flex-end;
-    margin-top: 70px;
-    margin-right: 100px;
+    justify-content: center;
+    position: absolute;
+    right: 0px;
+    width: 20%;
+}
+
+.homelink {
+   text-align: center;
+   margin: 20px;
+}
+
+.container2 {
+    display: flex;
+    height: 100vh;
+    position: absolute;
+    left: 0px;
+    width: 80%;
 }
 
 .breakfast-recipes{
     position: absolute;
-    font-size: 130px;
-    top:435px;
-    left:300px;
+    font-size: 8vw;
+    top: 50%;
+    left: 20%;
 }
 
 .bc {
     position: absolute;
-    top: 150px;
-    left: 100px;
-    width: 700px;
+    top: 20%;
+    left: 10%;
+    width: 55%;
     height: auto;
 }
 
 .top-logo {
     position: absolute;
-    left: 850px;
-    top:0px;
-    width:180px;
+    left: 75%;
+    width: 15%;
     height: auto;
 }
 
