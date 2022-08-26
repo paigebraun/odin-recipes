@@ -1,11 +1,11 @@
 @font-face {
     font-family: porter;
-    src: url(https://www.dafont.com/porter.font);
+    src: url(./fonts/PorterBold.ttf)
 }
 
 @font-face {
     font-family: nourd;
-    src: url(https://www.behance.net/gallery/84555653/Nourd-Typeface);
+    src: url(./fonts/NourdRegular.ttf);
 }
 
 html {
@@ -92,6 +92,8 @@ p, li {
    margin: 20px;
 }
 
+/* flex container for breakfast recipes text,
+    bc image, top logo */
 .container2 {
     display: flex;
     height: 100vh;
