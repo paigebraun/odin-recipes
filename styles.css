@@ -10,15 +10,7 @@
 
 html {
     background-color: #FAF8F2;
-}
-
-.mainpic {
-    position: absolute;
-    right: -300px;
-    margin-top: 100px;
-    top:0px;
-    width: 1300px;
-    height: auto;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -40,17 +32,6 @@ h1 {
     max-height: 150px;
 }
 
-.bacon {
-    rotate: 30deg;
-    width: 200px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.bacon2 {
-    rotate: 30deg;
-}
-
 .homeimg:hover {
     filter:grayscale(100%)
 }
@@ -59,8 +40,16 @@ p, li {
     font-family: nourd;
     font-weight: bold;
     color: black;
-    inline-size: 800px;
     overflow-wrap: break-word;
+}
+
+li {
+    inline-size: 100vw; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
 }
 
 .headerlink {
@@ -68,12 +57,9 @@ p, li {
     color: #97C8E6;
     text-decoration: none;
     font-size: 25px;
-}
-
-.navbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 /* flex container for .homelink images */
@@ -122,6 +108,31 @@ p, li {
     left: 75%;
     width: 15%;
     height: auto;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    width: 95%;
+    height: auto;
+}
+
+.body .mainpic {
+    width: 60%;
+    height: auto;
+    position:relative;
+    left:20%;
+    top:50%;
+}
+
+.body h3,
+.body p,
+.body ul,
+.body ol {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
 }
 
 span {
